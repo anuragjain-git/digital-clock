@@ -8,22 +8,14 @@
 </head>
 <body>
 
-    <div id="clock">
-
-    </div>
-
+    <div id="clock"> </div>
     <script>
-
         function clock () {
             let date = new Date();
-            // console.log(date);
             let x="AM";
             let hr = date.getHours();
             let min = date.getMinutes();
             let sec = date.getSeconds();
-            // console.log(hr);
-            // console.log(min);
-            // console.log(sec);
 
             if (hr > 12) {
                 hr=hr-12;
